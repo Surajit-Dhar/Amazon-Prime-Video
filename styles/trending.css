@@ -1,0 +1,120 @@
+body{
+    width: 100%;
+    position: relative;
+    background: #0c111b;
+    font-family: roboto, sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 4%;
+    background:  #000000;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo{
+    height: 40px;
+    background-color: white;
+}
+
+.nav-links{
+    margin-top: 10px;
+    display: flex;
+    list-style:none;
+}
+
+  .nav-items{
+    text-decoration: none;
+    margin-left: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    opacity: 0.9;
+    margin-top: 20px;
+}
+
+.right-container{
+    display: block;
+    margin-left: auto;
+}
+
+.search-box{
+    border: none;
+    border-bottom: 1px solid #aaa;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color:#fff;
+    width: 250px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.search-box:focus{
+    width: 400px;
+    border-color: #1f80e0;
+}
+
+#btn{
+    background: goldenrod;
+    height: 34px;
+    width:130px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    margin-right: 120px;
+    cursor: pointer;
+}
+
+.login-link{
+    color: #fff;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+}
+h3{
+    color: white;
+    margin-right: 10px;
+}
+  
+     #container{
+         height:110px;
+         width:350px;
+         box-shadow: rgba(167, 161, 161, 0.4) 0px 30px 90px;
+         margin:auto;
+         margin-top: 60px;
+     }
+     h1{
+         color:red;
+         text-align: center;
+     }
+     #mov{
+         height:29px;
+         width:330px;
+         border-radius: 10px;
+         margin-left: 10px;
+     }
+     #uyi{
+         display:grid;
+         grid-template-columns: repeat(3,1fr);
+         grid-gap:15px;
+         margin-top:20px;
+         margin-left:70px;
+     }
+     #logo2{
+        height:80px;
+        width:150px;
+    }

@@ -1,0 +1,230 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: roboto, sans-serif;
+}
+
+
+
+#nav{
+  
+    display:flex;
+    height:253px;
+    width:100%;
+
+}
+#e1{
+  
+   height:100%;
+   width:69%;
+   background-color: #222222;
+}
+#p1{
+    height:100%;
+    width:31%;
+    background-image: linear-gradient(
+        to right,
+        #222222 2%,
+        transparent 68%
+      ), url("https://m.media-amazon.com/images/G/01/Digital_Video/Pipeline/packshot_pipeline_banner3_IN._CB409104359_.png");
+    background-size: cover;
+}
+#p2{
+    
+    height:65px;
+    width:140px;
+    margin-top: 35px;
+    margin-left:200px ;
+}
+.m3{
+    font-size: 26px;
+    padding-left: 17%;
+    color:#c8cbcd;
+    margin-top: 26px;
+
+}
+.m1{
+    font-size: 37px;
+    color:white;
+    margin-left: 17%;
+}
+#e2{
+    border: 3px solid #1196ab;
+    display:flex;
+    height:76px;
+    width:1150px;
+    margin: auto;
+    margin-top: 30px;
+}
+#i3{
+    padding:21px 30px;
+}
+.p4{
+    font-size: 18px;
+   
+}
+#p5{
+    font-size: 19px;
+}
+.t5{
+    font-size: 30px;
+    margin-left: 217px;
+}
+#d6{
+    border:1px solid #c8cbcd;
+    height:auto;
+    width:1150px;
+    margin:auto;
+}
+.t6{
+    font-weight: lighter;
+    font-size: 24px;
+    margin-left: 25px;
+    margin-top: 12px;
+}
+#round{
+    height:20px;
+    width:20px;
+    margin-left: 39px;
+    margin-top: 6px;
+}
+.t7{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 23px;
+    margin-top: 6px;
+}
+#d7{
+    display:flex;
+}
+.i3{
+    margin-left: 78px;
+    margin-top: 10px;
+}
+#d8{
+    display:flex;
+}
+#d8>p{
+    margin-left: 10px;
+}
+#pay{
+    margin-top: 18px;
+    margin-left: 35px;
+}
+#br{
+    background-color: #eff0f3;
+    height:226px;
+}
+#d9{
+   
+    display:none;
+}
+#d11{
+    display:flex;
+}
+.f1{
+    margin-left: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#u1{
+    height:34px;
+    width:150px;
+    border-radius: 4px;
+    border:1px solid #8b8c8d;
+    font-size: 19px;
+}
+#u2{
+    height:34px;
+    width:220px;
+    border-radius: 4px;
+    border:1px solid #8b8c8d;
+    font-size: 19px;
+}
+#u3{
+    height:34px;
+    width:180px;
+    border-radius: 4px;
+    border:1px solid #8b8c8d;
+    font-size: 19px;
+}
+#add{
+    height:34px;
+    width:115px;
+    border-radius: 8px;
+    margin-left: 27px;
+    margin-top: 29px;
+    background-color: #0f79af;
+    border:none;
+    color:white;
+    cursor: pointer;
+    font-size: 15px;
+}
+#d10{
+    
+    height:210px;
+    width:350px;
+    margin-left:1012px;
+    margin-top: 30px;
+    
+}
+#footer{
+    height:170px;
+    width:100%;
+    background-color: #222222;
+    margin-top: 23px;
+    padding:0;
+
+}
+#b4{
+  
+    height:70px;
+    width:160px;
+    padding:20px;
+    margin-left: 43%;
+  
+}
+#b5{
+    display: flex;
+    margin-left: 340px;
+    margin-top: 5px;
+}
+#b5>div{
+  
+    height:35px;
+    width:450px;
+    
+}
+#b5>div:nth-child(1){
+    font-size: 19px;
+    color:#1a618e;
+    text-align:center ;
+}
+#b5>div:nth-child(2){
+    font-size: 19px;
+    color:rgb(185, 184, 184);
+
+}
+#sub5{
+    height:61px;
+    width:290px;
+    border-radius: 6px;
+    margin-left: 60px;
+    font-size: 21px;
+    cursor: pointer;
+    background-color: #c8e3ed;
+    border:none;
+    color:#c8cbcd;
+    margin-top: 16px;
+}
+#d12{
+   
+    width:290px;
+    margin-left:60px;
+    text-align: center;
+    color:#9c9c9c;
+}
+#p5{
+    color:blue;
+}

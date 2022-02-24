@@ -1,0 +1,52 @@
+#logo{
+    height:100px;
+    width:250px;
+    margin:auto;
+}
+#myFrom{
+    height:400px;
+    width:350px;
+    margin:auto;
+    margin-top: 7px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+#mob{
+    height:27px;
+    width:300px;
+    margin-top: 11px;
+}
+#passwd{
+    height:27px;
+    width:300px;
+    margin-top: 11px;
+}
+#button{
+    border:0;
+    height:35px;
+    width:315px;
+    margin-top: 11px;
+    background-color: #f2ca68;
+    color:black;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.create{
+    width: 320px;
+    height:35px;
+    border:0;
+    margin-left:620px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: rgb(197, 193, 193);
+    font-size: 15px;
+}
+.dlr{
+    color:#3498db;
+    font-size: 14px;
+    margin-left: 12px;
+}
+#check{
+    height:16px;
+    width:16px;
+}

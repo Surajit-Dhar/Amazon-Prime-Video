@@ -1,0 +1,580 @@
+body{
+    position: relative;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    font-family: roboto, sans-serif;
+}
+
+#navbar{
+  
+    width: 100%;
+    height: 94px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 4%;
+    z-index: 9;
+    background: #24303f;
+    display: flex;
+    
+}
+#logo1{
+   
+    height:100%;
+    width:75%;
+    cursor: pointer;
+}
+#part2{
+    display:flex;
+    
+}
+#part2>div{
+    margin-top: 36px;
+    cursor: pointer;
+}
+#t1{
+    font-size: 22px;
+    color:rgb(185, 184, 184);
+    margin-left: 10px;
+}
+#logo2{
+    margin-left: 6px;
+}
+#logo3{
+    border-radius: 50%;
+    margin-left: 27px;
+    margin-top: 28px;
+    cursor: pointer;
+}
+#box1{
+    margin-left: 25px;
+}
+#nam{
+    color:rgb(179, 174, 174);
+    margin-top: 45px;
+    font-size: 18px;
+    margin-left: 15px;
+}
+#main1{
+    width: 100%;
+    height: 694px;
+    /* top: 0; */
+    margin-top: 86px;
+    position: relative;
+    background-image:linear-gradient(
+        to right,
+        #000 40%,
+        transparent 50%
+      ),url("https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg");
+    background-size:cover;
+    color:white;
+}
+#main2{
+    
+    display:flex;
+    height:528px;
+    width:100%;
+}
+#a1{
+    font-size: 60px;
+    margin-left: 50px;
+    font-weight:lighter;
+}
+#t2{
+    height:100%;
+    width:50%;
+    
+}
+#a2{
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight:lighter;
+    color:#989898;
+    
+}
+#b1>div{
+    border-radius: 8px;
+    text-align: center;
+    font-size: 26px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBxbJkP1km8z1AVRzsjhRlR3xLHNWr5FV0IB9ON3snTCxxRE1P9kP7XW1s8sSdLqoozQo&usqp=CAU");
+    background-size: cover;
+    color:white;
+    font-weight: bolder;
+    padding:50px 15px;
+    cursor: pointer;
+}
+#b1{
+    display:grid;
+    grid-template-columns:repeat(3,210px);
+    grid-template-rows: repeat(3,150px);
+    grid-gap:10px;
+    margin-left: 80px;
+    margin-top: 27px;
+}
+#b1>div:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  
+}
+#main3{
+ 
+  
+    height:630px;
+    width:100%;
+    background-image: url("https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/PRIME_multi-benefit_MAGNET_2X._CB1519820207_.jpg");
+    background-size: cover;
+    color:white;
+}
+#main4{
+    border:1px solid black;
+    height:620px;
+    width:100%;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg");
+    background-size: cover;
+    color:white;
+}
+#main5{
+    border:1px solid black;
+    height:610px;
+    width:100%;
+    background-image: url("https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg");
+    background-size: cover;
+    color:white;
+}
+#main6{
+    height:200px;
+    width:100%;
+    background-color: #222222;
+    margin:0;
+    padding:0;
+
+}
+#b4{
+  
+    height:70px;
+    width:160px;
+    padding:20px;
+    margin-left: 43%;
+  
+}
+#b5{
+    display: flex;
+    margin-left: 340px;
+    margin-top: 5px;
+}
+#b5>div{
+  
+    height:35px;
+    width:450px;
+    
+}
+#b5>div:nth-child(1){
+    font-size: 19px;
+    color:#1a618e;
+    text-align:center ;
+}
+#b5>div:nth-child(2){
+    font-size: 19px;
+    color:rgb(185, 184, 184);
+
+}
+@media only screen and (min-width:630px) and (max-width:950px){
+    #main1{
+      
+        width: 930px;
+        height: 894px;
+        margin-top: 80px;
+
+        
+    }
+    #main1>div:nth-child(1){
+     
+        width: 930px;
+        height: 284px;
+        background-image: linear-gradient(
+            to top,
+            #000 4%,
+            transparent 35%
+          ), url("https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP._SX1440_CR575,0,865,675_QL80_AC_FP_.jpg");
+        background-size: cover;
+    
+    }
+    #main1>div:nth-child(2){
+       
+        width: 930px;
+        height: 564px;
+        background-color: #000000;
+    }
+    #navbar{
+  
+        width: 930px;
+        height: 80px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 0 4%;
+        z-index: 9;
+        background: #24303f;
+        display: flex;
+        
+    }
+    #logo1{
+   
+        height:100%;
+        width:54%;
+        cursor: pointer;
+    }
+    #main2{
+        height:auto;
+        width:930px;
+        display:grid;
+        grid-template-columns: repeat(1,930px);
+        margin-bottom: 50px;
+
+    }
+    #t2{
+        height:300px;
+        width:90%;
+       
+    }
+    #b1{
+        display:grid;
+        grid-template-columns:repeat(4,180px);
+        grid-template-rows: repeat(3,150px);
+        grid-gap:10px;
+        width:100%;
+        margin-left: 57px;
+        margin-top: 125px;
+    }
+    #main3{
+      
+        width: 930px;
+        height: 950px;
+        margin-top: 50px;
+
+        
+    }
+    #main3>div:nth-child(1){
+    
+        width: 930px;
+        height: 420px;
+        background-image: linear-gradient(
+            to top,
+            #000,
+            transparent 15%
+          ), url("https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/PRIME_multi-benefit_MAGNET_2X._SX1440_CR575,0,865,675_QL80_AC_FP_.jpg");
+        background-size: cover;
+    
+    }
+    #main3>div:nth-child(2){
+        width: 930px;
+        height: 530px;
+        background-image: url("https://wallpaperaccess.com/full/38119.jpg");
+        background-size: cover;
+    }
+    #main4{
+        height:980px;
+        width:930px;
+    }
+
+ #main4>div:nth-child(1){
+   border:1px solid black;
+    width: 890px;
+    height: 450px;
+    background-image:linear-gradient(
+        to top,
+        #000 8%,
+        transparent 20%
+      ), 
+    url("https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left._SX1440_CR0,0,865,675_QL80_AC_FP_.jpg");
+    background-size: cover;
+
+}
+#main4>div:nth-child(2){
+    height:0px;
+    width:0px;
+    display:none;
+}
+#main4>div:nth-child(3){
+   border:1px solid black;
+    width: 930px;
+    height: 480px;
+    color: white;
+    display:block;
+    font-size: 35px;
+    background-image: url("https://wallpaperaccess.com/full/38119.jpg");
+    background-size: cover;
+} 
+/* .h3{ 
+    font-size: 30px;
+} 
+.m4{
+    font-size: 26px;
+    padding-top: 3px ;
+     color:#c8cbcd;
+ }
+
+
+.sub2{
+    height:62px;
+    width:345px;
+    background-color:#0f79af ;
+    color:white;
+    margin-left: 44px;
+    margin-top: 28px;
+    font-size: 23px;
+    border-radius: 9px;
+    border:none;
+
+}*/
+#main5{ 
+    height:950px;
+    width:100%;
+}
+#main5>div:nth-child(1){
+ 
+    width: 900px;
+    height: 440px;
+    background-image:linear-gradient(
+        to top,
+        #000 4%,
+        transparent 10%
+      ), 
+    url("https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._SX1440_CR575,0,865,675_QL80_AC_FP_.jpg");
+    background-size: cover;
+}
+#main5>div:nth-child(2){
+    
+    width: 930px;
+    height: 510px;
+    background-color: #000;  
+  }
+  #main6{
+    height:250px;
+    width:930px;
+    background-color: #222222;
+
+}
+#b5{
+    margin-left: 100px;
+    margin-top: 5px;
+}
+#b5>div{
+  
+    height:16px;
+    width:600px;
+    
+}
+#b5>div:nth-child(1){
+    font-size: 17px;
+    color:#1a618e;
+}
+#b5>div:nth-child(2){
+    font-size: 17px;
+    color:rgb(185, 184, 184);
+
+ }
+ .h1{
+    font-size: 48px;
+    margin-left:30px;
+    margin-top: 0px;
+}
+.m1{
+    font-size: 24px;
+    /* padding-top: 3px ; */
+    margin-left: 3%;
+}
+.m2{
+    font-size: 18px;
+    margin-left: 6%;
+}
+.sub{
+    height:58px;
+    width:345px;
+    background-color:#0f79af ;
+    color:white;
+    font-size: 23px;
+    border-radius: 9px;
+    margin-left: 7%;
+    border:none;
+    cursor: pointer;
+}
+
+}
+
+#lang{
+    max-height:410px;
+    width:700px; 
+    display:none;
+    /* grid-template-columns: repeat(3,210px);
+    grid-template-rows: repeat(7,55px);
+    grid-gap:13px; */
+    overflow-y:scroll;
+    scrollbar-width: none;
+    scrollbar-color: unset;
+    z-index:99999;
+    background-color: #252e39;
+    box-shadow: 2px 2px 2px #ccc;
+    cursor: pointer;
+    margin-left: 530px;
+    color:#c8cbcd;
+    font-size: 19px;
+    position:absolute;
+    text-align: center;
+    font-weight: bolder;
+}
+ #lang2{
+    display:grid;
+    grid-template-columns: repeat(3,210px);
+    grid-template-rows: repeat(7,55px);
+    grid-gap:13px;
+} 
+.i1{
+    padding-top: 9px;
+}
+#lang>div{
+    margin-left: 13px;
+    margin-top: 13px;
+   
+}
+#lang2>div:hover{
+    cursor: pointer;
+  background-color: #1a618e;
+  border-radius: 7px;
+}
+.h1{
+    font-size: 54px;
+    padding-top: 120px ;
+    padding-left: 3%;
+}
+.m1{
+    font-size: 29px;
+    padding-top: 3px ;
+    padding-left: 3%;
+    color:#c8cbcd;
+}
+.m2{
+    font-size: 18px;
+    padding-left: 4%;
+}
+.sub{
+    height:62px;
+    width:345px;
+    background-color:#0f79af ;
+    color:white;
+    margin-left: 44px;
+    margin-top: 13px;
+    font-size: 23px;
+    border-radius: 9px;
+    border:none;
+}
+.h2{
+    padding-left: 56%;
+    font-size: 50px;
+}
+.m3{
+    font-size: 26px;
+    padding-top: 3px ;
+    padding-left: 56%;
+    color:#c8cbcd;
+
+}
+.sub1{
+    height:62px;
+    width:345px;
+    background-color:#0f79af ;
+    color:white;
+    margin-left: 884px;
+    margin-top: 28px;
+    font-size: 23px;
+    border-radius: 9px;
+    border:none;
+
+}
+
+.h3{
+    padding-left: 6%;
+    font-size: 50px;
+}
+.m4{
+    font-size: 26px;
+    padding-top: 3px ;
+    padding-left: 6%;
+    color:#c8cbcd;
+
+}
+.sub2{
+    height:62px;
+    width:345px;
+    background-color:#0f79af ;
+    color:white;
+    margin-left: 57px;
+    margin-top: 20px;
+    font-size: 23px;
+    border-radius: 9px;
+    border:none;
+
+}
+@media only screen and (min-width:950px) and (max-width:2700px){
+    #main4>div:nth-child(3){
+        display:none;
+    }
+
+}
+.su1{
+    height:58px;
+    width:345px;
+    background-color:#0f79af ;
+    color:white;
+    font-size: 23px;
+    border-radius: 9px;
+    margin-left: 3%;
+    border:none;
+    cursor: pointer;
+}
+.su{
+    height:58px;
+    width:345px;
+    background-color:#0f79af ;
+    color:white;
+    font-size: 23px;
+    border-radius: 9px;
+    margin-left: 3%;
+    border:none;
+    cursor: pointer;
+}
+#hj{
+    max-height:410px;
+    width:400px; 
+    display:none;
+    /* grid-template-columns: repeat(3,210px);
+    grid-template-rows: repeat(7,55px);
+    grid-gap:13px;*/
+    /* overflow-y:scroll; */
+    scrollbar-width: none;
+    scrollbar-color: unset;
+    z-index:99999;
+    background-color: #252e39;
+    box-shadow: 2px 2px 2px #ccc;
+    cursor: pointer;
+    margin-left: 530px;
+    color:#c8cbcd;
+    font-size: 19px;
+    position:absolute;
+    text-align: center;
+    font-weight: bolder;
+}
+#hj2{
+    display:grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(4,50px);
+    grid-gap:10px;
+
+}
+#hj2>div{
+    margin-top: 20px;
+}
+#hj2>div:hover{
+    color:white;
+}
