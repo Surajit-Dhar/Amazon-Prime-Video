@@ -115,6 +115,9 @@ document.querySelector("#main1").addEventListener("click",function(){
 
 document.getElementById("so").addEventListener("click",function(){
     document.querySelector("#nam").innerHTML="SignUp"
+    localStorage.removeItem('work');
+    localStorage.removeItem('item');
+    localStorage.removeItem('name');
 });
 
 document.getElementById("log").addEventListener("click",function(){
