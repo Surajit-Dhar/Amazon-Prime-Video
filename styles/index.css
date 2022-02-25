@@ -19,6 +19,10 @@ body{
     display: flex;
     
 }
+.m2{
+        font-size: 14px;
+        margin-left: 2.5%;
+} 
 #logo1{
    
     height:100%;
@@ -451,12 +455,12 @@ body{
 .m1{
     font-size: 29px;
     padding-top: 3px ;
-    padding-left: 3%;
+    padding-left: 2%;
     color:#c8cbcd;
 }
 .m2{
     font-size: 18px;
-    padding-left: 4%;
+    padding-left: 1%;
 }
 .sub{
     height:62px;
@@ -529,7 +533,7 @@ body{
     color:white;
     font-size: 23px;
     border-radius: 9px;
-    margin-left: 3%;
+    margin-left: 2%;
     border:none;
     cursor: pointer;
 }
@@ -540,7 +544,7 @@ body{
     color:white;
     font-size: 23px;
     border-radius: 9px;
-    margin-left: 3%;
+    margin-left: 2%;
     border:none;
     cursor: pointer;
 }
@@ -577,4 +581,289 @@ body{
 }
 #hj2>div:hover{
     color:white;
+}
+
+@media only screen and (min-width:0px) and (max-width:630px){
+    #main1{
+      
+        width: 100%;
+        height: 694px;
+        margin-top: 80px;
+
+        
+    }
+    #main1>div:nth-child(1){
+     
+        width: 100%;
+        height: 264px;
+        background-image: linear-gradient(
+            to top,
+            #000 4%,
+            transparent 35%
+          ), url("https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP._SX1440_CR575,0,865,675_QL80_AC_FP_.jpg");
+        background-size: cover;
+    
+    }
+    #main1>div:nth-child(2){
+       
+        width: 100%;
+        height: 364px;
+        background-color: #000000;
+    }
+    #navbar{
+  
+        width: 100%;
+        height: 80px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 0 4%;
+        z-index: 9;
+        background: #24303f;
+        display: flex;
+        
+    }
+    #logo1{
+   
+        height:100%;
+        width:44%;
+        cursor: pointer;
+    }
+    .h1{
+        font-size: 39px;
+        padding-top: 20px ;
+        padding-left: 3%;
+    }
+    .m1{
+        font-size: 18px;
+        padding-top: 3px ;
+        padding-left: 3%;
+        color:#c8cbcd;
+    }
+    .m2{
+        font-size: 14px;
+        padding-left: 4%;
+    }
+    .su1{
+        height:49px;
+        width:258px;
+        background-color:#0f79af ;
+        color:white;
+        font-size: 20px;
+        border-radius: 6px;
+        margin-left: 3%;
+        border:none;
+        cursor: pointer;
+    }
+    .su{
+        height:49px;
+        width:258px;
+        background-color:#0f79af ;
+        color:white;
+        font-size: 20px;
+        border-radius: 6px;
+        margin-left: 3%;
+        border:none;
+        cursor: pointer;
+    }
+    #main2{
+        height:auto;
+        width:100%;
+        display:grid;
+        grid-template-columns: repeat(1,630px);
+        margin-bottom: 40px;
+
+    }
+    #t2{
+        height:200px;
+        width:90%;
+       
+    }
+    #a1{
+        font-size: 40px;
+        margin-left: 30px;
+        font-weight:lighter;
+    }
+    #a2{
+        font-size: 20px;
+        margin-left: 30px;
+        font-weight:lighter;
+        color:#989898;
+        
+    }
+    #b1{
+        display:grid;
+        grid-template-columns:repeat(2,240px);
+        grid-template-rows: repeat(5,220px);
+        grid-gap:10px;
+        width:100%;
+        margin-left: 57px;
+        margin-top: 125px;
+    }
+    #b1>div{
+        text-align: center;
+        font-size: 30px;
+    }
+    #main3{
+      
+        width: 100%;
+        height: 750px;
+        margin-top: 30px;
+    }
+    #main3>div:nth-child(1){
+    
+        width: 100%;
+        height: 380px;
+        background-image: linear-gradient(
+            to top,
+            #000,
+            transparent 15%
+          ), url("https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/PRIME_multi-benefit_MAGNET_2X._SX1440_CR575,0,865,675_QL80_AC_FP_.jpg");
+        background-size: cover;
+    
+    }
+    #main3>div:nth-child(2){
+        width: 100%;
+        height: 430px;
+        background-image: url("https://wallpaperaccess.com/full/38119.jpg");
+        background-size: cover;
+    }
+    .sub{
+        height:49px;
+        width:295px;
+        background-color:#0f79af ;
+        color:white;
+        margin-left: 24px;
+        margin-top: 13px;
+        font-size: 23px;
+        border-radius: 6px;
+        border:none;
+    }
+ #main4{
+    height:780px;
+    width:100%;
+}
+
+ #main4>div:nth-child(1){
+   border:1px solid black;
+    width: 100%;
+    height: 350px;
+    background-image:linear-gradient(
+        to top,
+        #000 8%,
+        transparent 15%
+      ), 
+    url("https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left._SX1440_CR0,0,865,675_QL80_AC_FP_.jpg");
+    background-size: cover;
+
+}
+#main4>div:nth-child(2){
+    height:0px;
+    width:0px;
+    display:none;
+}
+#main4>div:nth-child(3){
+   border:1px solid black;
+    width: 100%;
+    height: 380px;
+    color: white;
+    display:block;
+    font-size: 18px;
+    background-image: url("https://wallpaperaccess.com/full/38119.jpg");
+    background-size: cover;
+} 
+.h3{ 
+    font-size: 34px;
+} 
+.m4{
+    font-size: 20px;
+    padding-top: 3px ;
+     color:#c8cbcd;
+ }
+
+
+.sub2{
+    height:49px;
+    width:275px;
+    background-color:#0f79af ;
+    color:white;
+    margin-left: 31px;
+    margin-top: 28px;
+    font-size: 20px;
+    border-radius: 6px;
+    border:none;
+
+}
+#main5{ 
+    height:750px;
+    width:100%;
+}
+#main5>div:nth-child(1){
+ 
+    width: 100%;
+    height: 440px;
+    background-image:linear-gradient(
+        to top,
+        #000 4%,
+        transparent 10%
+      ), 
+    url("https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._SX1440_CR575,0,865,675_QL80_AC_FP_.jpg");
+    background-size: cover;
+}
+#main5>div:nth-child(2){
+    
+    width: 100%;
+    height: 310px;
+    background-color: #000;  
+  }
+  .h1{
+    font-size: 34px;
+    margin-left:20px;
+    margin-top: 0px;
+}
+.m1{
+    font-size: 21px;
+    /* padding-top: 3px ; */
+    margin-left: 3%;
+}
+#main6{
+    height:210px;
+    width:100%;
+    background-color: #222222;
+    margin:0;
+    padding:0;
+
+}
+#b4{
+  
+    height:55px;
+    width:130px;
+    /* padding:20px;*/
+    margin-left: 33%;
+    padding-top: 20px;
+  
+}
+#b5{
+    margin-left: 31px;
+    margin-top: 5px;
+}
+#b5>div{
+  
+    height:30px;
+    width:400px;
+    
+
+    
+}
+#b5>div:nth-child(1){
+    font-size: 13px;
+    color:#1a618e;
+    text-align:center ;
+}
+#b5>div:nth-child(2){
+    font-size: 13px;
+    color:rgb(185, 184, 184);
+    margin-left: 10px;
+
+}
 }
