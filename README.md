@@ -2,7 +2,8 @@
 <h1>Building the clone of ‘Amazon Prime Video’</h1>
 
 <p>Hello reader, Surajit this side welcomes you to this blog post. Let me introduce you to the platform first, so “Amazon Prime Video” is an entertainment website , I am creating this blog to share My experience of working on a project assigned to me by our Masai School and how I’m manage project work within six days. Thanks to Masai School for giving us an opportunity to build a project. It was really great experience.</p>
-
+<br/>
+<h3>Landing Page : </h3>
 <img src="https://raw.githubusercontent.com/Surajit-Dhar/Photos/main/Screenshot%20(81).png" alt="project pik">
 
 <h3>TECHNOLOGY STACK WE USED</h3>
@@ -11,7 +12,8 @@
 <h3>STARTING THE PROJECT</h3>
 <p>First day I’m started by going through the website, understanding the structure and layouts.
 I divided about the parts of the website Day wish, I should build and how Considering the time constraint.</p>
-
+<br/>
+<h3>SignUp Page : </h3>
 <img src="https://raw.githubusercontent.com/Surajit-Dhar/Photos/main/Screenshot%20(82).png" alt="project pik">
 
 <h3>CHALLENGES</h3>
@@ -21,11 +23,14 @@ I divided about the parts of the website Day wish, I should build and how Consid
 4.Last but not the least, I had to complete the project in a span of 6 days, so there was a pressure that , but all dedication and hard work we managed to complete it in just 5 days, surprised? but yes that is the truth.
 <br/>
 Now let me take a pause and thank you as well for being with me till here, yes this smile that you are having right now, I care for that. Now let me showcase my project to you.
+<br/>
+<h3>Movie Page : </h3>
 <img src="https://raw.githubusercontent.com/Surajit-Dhar/Photos/main/Screenshot%20(70).png" alt="project pik">
 
 <h4>These were just some of the parts, you can go through the whole website by https://dreamy-shockley-6f2771.netlify.app</h4>
 <h4>Also the public GitHub repo link is here — https://github.com/Surajit-Dhar/Amazon-Prime-Video.git</h4>
 <br/>
+<h3>MovieList with sorting : </h3>
 <img src="https://raw.githubusercontent.com/Surajit-Dhar/Photos/main/Screenshot%20(71).png" alt="project pik">
 <h3>Major takeaways from the Project<h3>
 <ul>
